@@ -1,0 +1,148 @@
+/* *{
+    outline: 1px solid red;
+} */
+
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+    font-size: clamp(20px,4vw,40px);
+    font-weight: 800;
+    line-height: 95%;
+    font-weight: 800;
+}
+
+.ele{
+    display: flex;
+    flex-direction: column;
+    column-gap: 5px;
+    line-height: 1.625;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.eled{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.low{
+    background-image: url("https://cdn.discordapp.com/attachments/956482799307735132/956498787667439646/star.png");
+    margin-top: 30px;
+    z-index: 1;
+    font-weight: 600;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 95%;
+
+}
+
+.btn{
+    width: auto;
+    margin-top: 40px;
+    justify-content: center;
+    border-radius: 28px;
+    font-size: 20px;
+    background-color:#5865f2;
+    color: white;
+    line-height: 24px;
+    cursor: pointer;
+    font-weight: 500;
+    height: 8vh;
+    width: 20vw;
+    box-sizing: border-box;
+    border: none;
+}
+
+.bottom{
+  
+    color: white;
+    background-color:  #27232a;
+    margin-top: 10vh;
+    width: 99vw;
+    bottom: 0;
+}
+
+.bot{
+    margin-left: 5vw;
+    display: flex;
+    gap: 11vw;
+}
+
+.full{
+    width: 100%;
+}
+
+
+hr{
+    background-color: #5865f2;
+    color:#5865f2;
+    width: 83vw;
+    margin-left: 5vw;
+}
+
+.tit{
+    color: #5865f2 ;
+}
+
+
+
+.bel{
+    background-color:  #27232a;
+    color: white;
+    display: flex;
+    gap: 50vw;
+    width: 99vw;
+}
+
+.btn2{
+    height: 5vh;
+    margin-left: 17vw;
+    margin-top: 2vw;
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 7px 16px;
+    line-height: 24px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5865f2;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: white;
+}
+.whole{
+    margin-top: 5vw;
+    background-color: #27232a;
+}
+.dis{
+    margin-left: 5vw;
+}
+
+.flag{
+    width: 24px;
+    height: 16px;
+    margin-right: 8px;
+    margin-top: 1vh;
+}
+
+.ft{
+    display: flex;
+}
+
+.txt{
+    margin-top: 1vh;
+}
+
+
